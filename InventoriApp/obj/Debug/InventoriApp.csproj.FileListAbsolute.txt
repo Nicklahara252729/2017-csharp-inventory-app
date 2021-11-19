@@ -1,0 +1,14 @@
+c:\users\user\documents\visual studio 2013\Projects\InventoriApp\InventoriApp\bin\Debug\InventoriApp.exe.config
+c:\users\user\documents\visual studio 2013\Projects\InventoriApp\InventoriApp\bin\Debug\InventoriApp.exe
+c:\users\user\documents\visual studio 2013\Projects\InventoriApp\InventoriApp\bin\Debug\InventoriApp.pdb
+c:\users\user\documents\visual studio 2013\Projects\InventoriApp\InventoriApp\obj\Debug\InventoriApp.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2013\Projects\InventoriApp\InventoriApp\obj\Debug\InventoriApp.Form1.resources
+c:\users\user\documents\visual studio 2013\Projects\InventoriApp\InventoriApp\obj\Debug\InventoriApp.Properties.Resources.resources
+c:\users\user\documents\visual studio 2013\Projects\InventoriApp\InventoriApp\obj\Debug\InventoriApp.csproj.GenerateResource.Cache
+c:\users\user\documents\visual studio 2013\Projects\InventoriApp\InventoriApp\obj\Debug\InventoriApp.exe
+c:\users\user\documents\visual studio 2013\Projects\InventoriApp\InventoriApp\obj\Debug\InventoriApp.pdb
+c:\users\user\documents\visual studio 2013\Projects\InventoriApp\InventoriApp\obj\Debug\InventoriApp.Reporting.resources
+C:\Users\User\Documents\Visual Studio 2013\Projects\InventoriApp\InventoriApp\obj\Debug\InventoriApp.login.resources
+C:\Users\nick\Documents\Visual Studio 2013\Projects\InventoriApp\InventoriApp\bin\Debug\InventoriApp.exe.config
+C:\Users\nick\Documents\Visual Studio 2013\Projects\InventoriApp\InventoriApp\obj\Debug\InventoriApp.exe
+C:\Users\nick\Documents\Visual Studio 2013\Projects\InventoriApp\InventoriApp\obj\Debug\InventoriApp.pdb

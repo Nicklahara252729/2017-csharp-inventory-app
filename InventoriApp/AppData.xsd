@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AppData" targetNamespace="http://tempuri.org/AppData.xsd" xmlns:mstns="http://tempuri.org/AppData.xsd" xmlns="http://tempuri.org/AppData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="AppData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="AppData" msprop:Generator_UserDSName="AppData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Harga" msprop:Generator_TableClassName="HargaDataTable" msprop:Generator_TableVarName="tableHarga" msprop:Generator_RowChangedName="HargaRowChanged" msprop:Generator_TablePropName="Harga" msprop:Generator_RowDeletingName="HargaRowDeleting" msprop:Generator_RowChangingName="HargaRowChanging" msprop:Generator_RowEvHandlerName="HargaRowChangeEventHandler" msprop:Generator_RowDeletedName="HargaRowDeleted" msprop:Generator_RowClassName="HargaRow" msprop:Generator_UserTableName="Harga" msprop:Generator_RowEvArgName="HargaRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_HARGA" msprop:Generator_ColumnVarNameInTable="columnID_HARGA" msprop:Generator_ColumnPropNameInRow="ID_HARGA" msprop:Generator_ColumnPropNameInTable="ID_HARGAColumn" msprop:Generator_UserColumnName="ID_HARGA" type="xs:string" />
+              <xs:element name="NOMINAL" msprop:Generator_ColumnVarNameInTable="columnNOMINAL" msprop:Generator_ColumnPropNameInRow="NOMINAL" msprop:Generator_ColumnPropNameInTable="NOMINALColumn" msprop:Generator_UserColumnName="NOMINAL" type="xs:string" minOccurs="0" />
+              <xs:element name="KURS" msprop:Generator_ColumnVarNameInTable="columnKURS" msprop:Generator_ColumnPropNameInRow="KURS" msprop:Generator_ColumnPropNameInTable="KURSColumn" msprop:Generator_UserColumnName="KURS" type="xs:string" minOccurs="0" />
+              <xs:element name="DESKRIPSI" msprop:Generator_ColumnVarNameInTable="columnDESKRIPSI" msprop:Generator_ColumnPropNameInRow="DESKRIPSI" msprop:Generator_ColumnPropNameInTable="DESKRIPSIColumn" msprop:Generator_UserColumnName="DESKRIPSI" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Barang" msprop:Generator_TableClassName="BarangDataTable" msprop:Generator_TableVarName="tableBarang" msprop:Generator_RowChangedName="BarangRowChanged" msprop:Generator_TablePropName="Barang" msprop:Generator_RowDeletingName="BarangRowDeleting" msprop:Generator_RowChangingName="BarangRowChanging" msprop:Generator_RowEvHandlerName="BarangRowChangeEventHandler" msprop:Generator_RowDeletedName="BarangRowDeleted" msprop:Generator_RowClassName="BarangRow" msprop:Generator_UserTableName="Barang" msprop:Generator_RowEvArgName="BarangRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="KODE_BARANG" msprop:Generator_ColumnVarNameInTable="columnKODE_BARANG" msprop:Generator_ColumnPropNameInRow="KODE_BARANG" msprop:Generator_ColumnPropNameInTable="KODE_BARANGColumn" msprop:Generator_UserColumnName="KODE_BARANG" type="xs:string" />
+              <xs:element name="NAMA_BARANG" msprop:Generator_ColumnVarNameInTable="columnNAMA_BARANG" msprop:Generator_ColumnPropNameInRow="NAMA_BARANG" msprop:Generator_ColumnPropNameInTable="NAMA_BARANGColumn" msprop:Generator_UserColumnName="NAMA_BARANG" type="xs:string" minOccurs="0" />
+              <xs:element name="SATUAN_BARANG" msprop:Generator_ColumnVarNameInTable="columnSATUAN_BARANG" msprop:Generator_ColumnPropNameInRow="SATUAN_BARANG" msprop:Generator_ColumnPropNameInTable="SATUAN_BARANGColumn" msprop:Generator_UserColumnName="SATUAN_BARANG" type="xs:string" minOccurs="0" />
+              <xs:element name="STOK_BARANG" msprop:Generator_ColumnVarNameInTable="columnSTOK_BARANG" msprop:Generator_ColumnPropNameInRow="STOK_BARANG" msprop:Generator_ColumnPropNameInTable="STOK_BARANGColumn" msprop:Generator_UserColumnName="STOK_BARANG" type="xs:string" minOccurs="0" />
+              <xs:element name="ID_HARGA" msprop:Generator_ColumnVarNameInTable="columnID_HARGA" msprop:Generator_ColumnPropNameInRow="ID_HARGA" msprop:Generator_ColumnPropNameInTable="ID_HARGAColumn" msprop:Generator_UserColumnName="ID_HARGA" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Pasok" msprop:Generator_TableClassName="PasokDataTable" msprop:Generator_TableVarName="tablePasok" msprop:Generator_RowChangedName="PasokRowChanged" msprop:Generator_TablePropName="Pasok" msprop:Generator_RowDeletingName="PasokRowDeleting" msprop:Generator_RowChangingName="PasokRowChanging" msprop:Generator_RowEvHandlerName="PasokRowChangeEventHandler" msprop:Generator_RowDeletedName="PasokRowDeleted" msprop:Generator_RowClassName="PasokRow" msprop:Generator_UserTableName="Pasok" msprop:Generator_RowEvArgName="PasokRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="KODE_PASOK" msprop:Generator_ColumnVarNameInTable="columnKODE_PASOK" msprop:Generator_ColumnPropNameInRow="KODE_PASOK" msprop:Generator_ColumnPropNameInTable="KODE_PASOKColumn" msprop:Generator_UserColumnName="KODE_PASOK" type="xs:string" />
+              <xs:element name="KODE_BARANG" msprop:Generator_ColumnVarNameInTable="columnKODE_BARANG" msprop:Generator_ColumnPropNameInRow="KODE_BARANG" msprop:Generator_ColumnPropNameInTable="KODE_BARANGColumn" msprop:Generator_UserColumnName="KODE_BARANG" type="xs:string" minOccurs="0" />
+              <xs:element name="KODE_SUPPLIER" msprop:Generator_ColumnVarNameInTable="columnKODE_SUPPLIER" msprop:Generator_ColumnPropNameInRow="KODE_SUPPLIER" msprop:Generator_ColumnPropNameInTable="KODE_SUPPLIERColumn" msprop:Generator_UserColumnName="KODE_SUPPLIER" type="xs:string" minOccurs="0" />
+              <xs:element name="TGL_PASOK" msprop:Generator_ColumnVarNameInTable="columnTGL_PASOK" msprop:Generator_ColumnPropNameInRow="TGL_PASOK" msprop:Generator_ColumnPropNameInTable="TGL_PASOKColumn" msprop:Generator_UserColumnName="TGL_PASOK" type="xs:string" minOccurs="0" />
+              <xs:element name="JUMLAH_PASOK" msprop:Generator_ColumnVarNameInTable="columnJUMLAH_PASOK" msprop:Generator_ColumnPropNameInRow="JUMLAH_PASOK" msprop:Generator_ColumnPropNameInTable="JUMLAH_PASOKColumn" msprop:Generator_UserColumnName="JUMLAH_PASOK" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Suplier" msprop:Generator_TableClassName="SuplierDataTable" msprop:Generator_TableVarName="tableSuplier" msprop:Generator_RowChangedName="SuplierRowChanged" msprop:Generator_TablePropName="Suplier" msprop:Generator_RowDeletingName="SuplierRowDeleting" msprop:Generator_RowChangingName="SuplierRowChanging" msprop:Generator_RowEvHandlerName="SuplierRowChangeEventHandler" msprop:Generator_RowDeletedName="SuplierRowDeleted" msprop:Generator_RowClassName="SuplierRow" msprop:Generator_UserTableName="Suplier" msprop:Generator_RowEvArgName="SuplierRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="KODE_SUPLIER" msprop:Generator_ColumnVarNameInTable="columnKODE_SUPLIER" msprop:Generator_ColumnPropNameInRow="KODE_SUPLIER" msprop:Generator_ColumnPropNameInTable="KODE_SUPLIERColumn" msprop:Generator_UserColumnName="KODE_SUPLIER" type="xs:string" />
+              <xs:element name="NAMA_SUPLIER" msprop:Generator_ColumnVarNameInTable="columnNAMA_SUPLIER" msprop:Generator_ColumnPropNameInRow="NAMA_SUPLIER" msprop:Generator_ColumnPropNameInTable="NAMA_SUPLIERColumn" msprop:Generator_UserColumnName="NAMA_SUPLIER" type="xs:string" minOccurs="0" />
+              <xs:element name="ALAMAT" msprop:Generator_ColumnVarNameInTable="columnALAMAT" msprop:Generator_ColumnPropNameInRow="ALAMAT" msprop:Generator_ColumnPropNameInTable="ALAMATColumn" msprop:Generator_UserColumnName="ALAMAT" type="xs:string" minOccurs="0" />
+              <xs:element name="ID_KOTA" msprop:Generator_ColumnVarNameInTable="columnID_KOTA" msprop:Generator_ColumnPropNameInRow="ID_KOTA" msprop:Generator_ColumnPropNameInTable="ID_KOTAColumn" msprop:Generator_UserColumnName="ID_KOTA" type="xs:string" minOccurs="0" />
+              <xs:element name="TELP" msprop:Generator_ColumnVarNameInTable="columnTELP" msprop:Generator_ColumnPropNameInRow="TELP" msprop:Generator_ColumnPropNameInTable="TELPColumn" msprop:Generator_UserColumnName="TELP" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="HargaKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Harga" />
+      <xs:field xpath="mstns:ID_HARGA" />
+    </xs:unique>
+    <xs:unique name="BarangKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Barang" />
+      <xs:field xpath="mstns:KODE_BARANG" />
+    </xs:unique>
+    <xs:unique name="PasokKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Pasok" />
+      <xs:field xpath="mstns:KODE_PASOK" />
+    </xs:unique>
+    <xs:unique name="SupplierKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Suplier" />
+      <xs:field xpath="mstns:KODE_SUPLIER" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="Harga_Barang" msdata:parent="Harga" msdata:child="Barang" msdata:parentkey="ID_HARGA" msdata:childkey="ID_HARGA" msprop:Generator_UserChildTable="Barang" msprop:Generator_ChildPropName="GetBarangRows" msprop:Generator_UserRelationName="Harga_Barang" msprop:Generator_RelationVarName="relationHarga_Barang" msprop:Generator_UserParentTable="Harga" msprop:Generator_ParentPropName="HargaRow" />
+      <msdata:Relationship name="Barang_Pasok" msdata:parent="Barang" msdata:child="Pasok" msdata:parentkey="KODE_BARANG" msdata:childkey="KODE_BARANG" msprop:Generator_UserChildTable="Pasok" msprop:Generator_ChildPropName="GetPasokRows" msprop:Generator_UserRelationName="Barang_Pasok" msprop:Generator_RelationVarName="relationBarang_Pasok" msprop:Generator_UserParentTable="Barang" msprop:Generator_ParentPropName="BarangRow" />
+      <msdata:Relationship name="Supplier_Pasok" msdata:parent="Suplier" msdata:child="Pasok" msdata:parentkey="KODE_SUPLIER" msdata:childkey="KODE_SUPPLIER" msprop:Generator_UserChildTable="Pasok" msprop:Generator_ChildPropName="GetPasokRows" msprop:Generator_UserRelationName="Supplier_Pasok" msprop:Generator_ParentPropName="SuplierRow" msprop:Generator_RelationVarName="relationSupplier_Pasok" msprop:Generator_UserParentTable="Suplier" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>
